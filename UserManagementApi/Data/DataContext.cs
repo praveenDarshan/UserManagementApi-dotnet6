@@ -9,6 +9,7 @@ namespace UserManagementApi.Data
 
         }
 
-        public DbSet<SuperHero> SuperHeroes { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<UserImages> UserImages { get; set; }
     }
 }
